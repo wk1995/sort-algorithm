@@ -1,4 +1,4 @@
-package com.wk
+package com.wk.sort
 
 /**
  * <pre>
@@ -15,7 +15,7 @@ package com.wk
  *      CSDN   : http://blog.csdn.net/qq_33882671
  * </pre>
  */
-class DubbleSort : Sort {
+class DubbleSort : Sort() {
     override fun sort(nums: IntArray) {
         for (i in nums.size-1 downTo 1)
             for (j in 0 until i)

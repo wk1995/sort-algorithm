@@ -1,4 +1,4 @@
-package com.wk
+package com.wk.sort
 
 /**
  * <pre>
@@ -10,6 +10,9 @@ package com.wk
  *      CSDN   : http://blog.csdn.net/qq_33882671
  * </pre>
  */
-interface Sort {
-    fun  sort(nums:IntArray)
+abstract class Sort {
+    abstract fun  sort(nums:IntArray)
+    fun swap( a:Int,b:Int){
+//        a=a xor b
+    }
 }
